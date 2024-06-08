@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+  --text-color-link-dark: #222;
+  --text-color-link-light: #fcfcfc;
+  --bg-color-primary: #fff;
+  --bg-color-secondary: #008251;
+  --additional-color: #C49A6C;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  position: relative;
+  font-style: normal;
+  flex-direction: column;
+  font-optical-sizing: auto;
+  font-family: "Mulish", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  letter-spacing: 0.8px;
+}
+
+#home,
+#books,
+#current-books,
+#best-seller-books,
+#search-book {
+  flex-basis: 1;
+  min-height: 100vh;
+}

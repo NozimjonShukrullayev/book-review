@@ -1,0 +1,25 @@
+.books__list {
+  display: grid;
+  gap: 50px 20px;
+  list-style-type: none;
+  padding: 25px 0 50px 0;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+}
+.books__list__img {
+  width: 100%;
+}
+.books__list__author {
+  opacity: 0.6;
+  margin: 10px 0;
+  display: block;
+  color: var(--text-color-link-dark);
+}
+.books__list__title, 
+.books__list__isbn {
+  display: block;
+  font-weight: 600;
+  color: var(--text-color-link-dark);
+}
+.books__list__isbn {
+  margin-top: 10px;
+}

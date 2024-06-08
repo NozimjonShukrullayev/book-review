@@ -1,0 +1,18 @@
+.services__card__item {
+  padding: 55px 30px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid var(--bg-color-secondary);
+}
+.services__item__title {
+  margin: 10px 0;
+  color: var(--bg-color-secondary);
+  font-size: clamp(20px, 3.8vw, 22px);
+}
+.services__item__description {
+  margin: 20px 0;
+  font-size: clamp(12px, 3.7vw, 16px);
+}
+.services__item__btn {
+  color: var(--bg-color-secondary);
+}

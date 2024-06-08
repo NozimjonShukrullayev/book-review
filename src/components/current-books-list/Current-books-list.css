@@ -1,0 +1,27 @@
+#current-books {
+  padding: 50px 0;
+}
+.current__books__grid {
+  display: flex;
+  gap: 40px 20px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.current__books__img {
+  width: 250px;
+}
+.current__books__img img {
+  width: 100%;
+}
+.current__books__content {
+  text-align: center;
+}
+.current__books__author,
+.current__books__title {
+  display: block;
+}
+.current__books__title {
+  font-size: 25px;
+  margin: 15px 0;
+}

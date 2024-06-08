@@ -1,0 +1,19 @@
+#home-gallery {
+  padding: 40px 0;
+}
+.home__gallery__grid {
+  gap: 25px;
+  display: grid;
+  align-items: stretch;
+  grid-template-rows: repeat(auto-fit, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+.home__gallery__img {
+  width: 100%;
+  transition: 0.2s;
+  object-fit: cover;
+  object-position: center;
+}
+.home__gallery__img:not(:hover) {
+  filter: blur(2px);
+}

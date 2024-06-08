@@ -1,0 +1,20 @@
+.home__reviews__item {
+  padding: 50px;
+}
+.home__reviews__item__img {
+  width: 100%;
+  object-fit: cover;
+}
+.home__reviews__item__author {
+  display: block;
+  margin: 20px 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: clamp(15px, 3.7vw, 20px);
+}
+.home__reviews__item__btn {
+  width: 160px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}

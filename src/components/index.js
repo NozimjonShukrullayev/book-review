@@ -1,0 +1,14 @@
+export { default as Header } from "./header/Header";
+export { default as Footer } from "./footer/Footer";
+export { default as Home } from "./home/Home";
+export { default as MediaMenu } from "./media-menu/Media-menu";
+export { default as HomeHero } from "./home-hero/Home-hero";
+export { default as HomeServices } from "./home-services/Home-services";
+export { default as HomeReviews } from "./home-reviews/Home-reviews";
+export { default as HomeCollection } from "./home-collection/Home-collection";
+export { default as HomeGallery } from "./home-gallery/Home-gallery";
+export { default as Books } from "./books/Books";
+export { default as BooksLists } from "./books-lists/Books-lists";
+export { default as CurrentBooksList } from "./current-books-list/Current-books-list";
+export { default as BestSellerBooks } from "./best-seller-books/Best-seller-books";
+export { default as SearchBook } from "./search-book/Search-book";
