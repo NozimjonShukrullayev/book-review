@@ -1,9 +1,33 @@
-# React + Vite
+# Booktap - Online Book Platform
+React
+Redux
+React Router
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📖 Project Overview
+"Booktap" is a modern online book platform built with React and Redux Toolkit. It allows users to browse, search, and explore books across various genres.
 
-Currently, two official plugins are available:
+## ✨ Features
+- 📚 Book catalog with categories
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# book-review
+- 🔍 Advanced search functionality
+
+- ⭐ Book rating system
+
+- 📖 Reading progress tracker
+
+- 🎨 Responsive design for all devices
+
+- ⚡ Fast loading with skeleton screens
+
+## 🛠️ Tech Stack  
+- Technology	Purpose
+- React 18	Frontend framework
+- Redux Toolkit	State management
+- React Router	Navigation
+- Axios	API requests
+- React Icons	Icon library
+= Swiper	Interactive sliders
+= Typewriter Effect	Animated text
+
+## Preview demo
+[Link](https://book-review-rho.vercel.app/)
