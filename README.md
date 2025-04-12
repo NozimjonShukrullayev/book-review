@@ -27,7 +27,7 @@ React Router
 - Axios	API requests
 - React Icons	Icon library
 = Swiper	Interactive sliders
-= Typewriter Effect	Animated text
+= Typewriter Effect	Animated text  
 
 ## Preview demo
 [Link](https://book-review-rho.vercel.app/)
